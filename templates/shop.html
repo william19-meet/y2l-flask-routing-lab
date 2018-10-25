@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+ <ul>
+  <li><a href="/">Home</a></li>
+
+<br><br><br>	{% for show in shows %}
+                <li> {{show}} </li>
+                {% endfor %}
+<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Yj0l7iGKh8g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</ul>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WNhH00OIPP0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</body>
+</html>	
